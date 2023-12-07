@@ -1,0 +1,81 @@
+body {
+    background-color: antiquewhite;
+    color: black;
+    font-family: fantasy;
+}
+
+
+nav ul li a {
+    background-color: white;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline
+}
+
+
+.h1, .h2, .h3, .h4 {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    width: 35%;
+}
+
+.index img {
+    width: 100%;
+    height: 50vh;
+}
+
+.gallery h1 {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    width: 20%;
+
+}
+
+
+section {
+    display: flex;
+    width: 50%;
+}
+
+section img {
+    width: 50vw;
+    height: 60vh;
+}
+
+.gallery main {
+    display: flex;
+}
+
+
+.beginners h1,
+.beginners h2 {
+    border: 2px solid black;
+    background-color: aliceblue;
+    padding: 0.1em;
+    width: 100%;
+}
+
+.beginners main {
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5em;
+}
+
+
+.contact h1,
+.contact h2,
+.contact h2,
+.contact h3,
+.contact h4 {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    width: 35%;
+}
+
+.contact img {
+    width: 100%;
+    height: 50vh;
+}
