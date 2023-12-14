@@ -1,56 +1,107 @@
 body {
-    background-color: antiquewhite;
-    color: black;
-    font-family: fantasy;
-}
-
-
-nav ul li a {
     background-color: white;
     color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+nav ul {
     display: flex;
+    list-style: none;
     justify-content: space-between;
-    flex-direction: row;
-    align-items: baseline
+    border-radius: 2em;
+    color: slateblue
 }
 
 
-.h1, .h2, .h3, .h4 {
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(0, 0, 0);
-    width: 35%;
-}
-
-.index img {
-    width: 100%;
-    height: 50vh;
-}
-
-.gallery h1 {
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(0, 0, 0);
-    width: 20%;
-
+ul li {
+    display: inline-block;
+    margin: 0.5em;
 }
 
 
-section {
+ul li a {
+    text-decoration: none;
+    padding: 0.5em;
+    border: 2px solid black;
+    border-radius: 5em;
+}
+
+
+ul li a:hover {
+    background-color: thistle; 
+    padding: 1em;
+    transform: scale(1);
+}
+
+
+
+
+
+h1 {
+    text-align: center;
+}
+
+h2 {
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+body.index img {
+    width: 75%;
+    height: 30em;
+    display: block;
+    margin: 10px auto;
+}
+
+
+main.gallery section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section div {
     width: 50%;
+    margin-bottom: 20px;
 }
 
 section img {
-    width: 50vw;
-    height: 60vh;
+    width: 40%;
+    height: auto;
 }
 
-.gallery main {
-    display: flex;
+section h2 {
+    text-align: center
 }
 
 
-.beginners h1,
+.gallery main div {
+    display: block;
+    border: 1em solid black;
+    text-align: center;
+    padding: 0.1em;
+    width: 100%;
+}
+
+
+
+
+
+
 .beginners h2 {
     border: 2px solid black;
     background-color: aliceblue;
@@ -65,17 +116,26 @@ section img {
 }
 
 
-.contact h1,
-.contact h2,
-.contact h2,
-.contact h3,
-.contact h4 {
+
+
+
+
+
+.contact main {
+    border: 2px solid black;
     background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(0, 0, 0);
-    width: 35%;
+    padding: 1em;
 }
 
-.contact img {
-    width: 100%;
-    height: 50vh;
+.contact h3 {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 6%;
+
 }
+.contact h4 {
+    padding: 0.4em;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 4em
+}
+
