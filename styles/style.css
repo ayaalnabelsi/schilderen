@@ -10,21 +10,21 @@ nav ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    border-radius: 2em;
+    border-radius: 1em;
     color: slateblue
 }
 
 
 ul li {
     display: inline-block;
-    margin: 0.2em;
+    margin: 0.1em;
 }
 
 
 ul li a {
     text-decoration: none;
-    padding: 0.5em;
-    border: 2px solid black;
+    padding: 0.3em;
+    border: 0.1em solid black;
     border-radius: 5em;
 }
 
@@ -39,7 +39,6 @@ ul li a:hover {
 
 h1 {
     text-align: center;
-    
 }
 
 h2 {
@@ -78,6 +77,7 @@ body.index img {
 
 .gallery section img {
     width: 100%;
+    margin-bottom: 1em;
     height: 50vh;
 }
 
@@ -103,6 +103,7 @@ body.index img {
 
 figcaption{
     font-size: small;
+    border-bottom: 0.1em; 
 }
 
 
