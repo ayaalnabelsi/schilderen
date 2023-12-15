@@ -1,0 +1,175 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    border-radius: 1em;
+    color: slateblue;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0.1em;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 0.3em 0.5em; 
+    border: 0.1em solid black;
+    border-radius: 5em;
+}
+
+ul li a:hover {
+    background-color: thistle;
+    transform: scale(1);
+}
+
+
+
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+body.index img {
+    width: 75%;
+    height: 70vh;
+    display: block;
+    margin: 1em auto;
+}
+
+
+
+
+
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+/*bron:https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+
+
+.gallery section {
+    width: 20%;
+    margin-bottom: 1em;
+}
+
+.gallery section img {
+    width: 100%;
+    height: 50vh;
+}
+
+ .gallery h2 {
+    text-align: center;
+    border-bottom: 0.1em solid #000; 
+    font-size: medium;
+    padding-bottom: 0.1em;
+ }
+
+ .gallery-item {
+    width: 48%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto; 
+}
+
+figcaption{
+    font-size: small;
+}
+
+
+.beginners h1, h2{
+    border-bottom: 0.1em solid black;
+}
+
+body.beginners img{
+    width: 60%;
+    height: 50vh;
+    display: block;
+    margin: 2em auto;
+}
+
+main .beginners{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+.contact main {
+    background-color: seashell
+}
+
+.contact p {
+    text-align: center;
+}
+
+.contact main {
+    border: 2px solid black;
+    border-radius: 2em;
+    margin: 2em;
+    padding: 0.5em;
+}
+
+form.form-example {
+    display: table;
+}
+
+div.form {
+    display: table-row;
+}
+
+label,
+input {
+    display: table-cell;
+    margin-bottom: 2em;
+}
+
+label {
+    padding-right: 2em;
+}
+
+
+footer {
+    color: blue;
+    text-align: center;
+    font-size: small;
+    margin-top: 2em;
+}
+
+
